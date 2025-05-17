@@ -16,7 +16,7 @@ Projects here can be treated as demos, learning experiences, and exploration of 
 * [✏️ drawings](/projects/drawings)
 
 ### Lists
-* [📖 Goodreads (books)](https://www.goodreads.com/user/show/181020297-maya-ks)
+* [📖 Storygraph (books)](https://app.thestorygraph.com/profile/mayaks)
 * [🎹 Bandcamp (music)](https://bandcamp.com/mayaks)
 * [🎬 Letterboxd (films)](https://letterboxd.com/mayakss/)
 
