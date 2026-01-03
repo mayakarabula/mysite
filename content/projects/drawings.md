@@ -5,6 +5,18 @@ description = "Some of my drawings"
 author = { name = "Maya" }
 +++
 
+Ritual by the moonlight
+
+![ritual by the moonlight](/images/ritual.png)
+
+Decolonize
+
+![decolonize](/images/decolonize.png)
+
+Birthday
+
+![birthday](/images/friend.png)
+
 Berlin Night, 24 Jan 2024 (a sketchy drawing inspired by "A Roman Holiday" by Frank Skipworth c.1889)
 
 ![berlin night](/images/berlin-night.png)
