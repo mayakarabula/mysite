@@ -1,0 +1,53 @@
+<div class="site-controls" role="group" aria-label="Display settings">
+  <label>
+    <input type="checkbox" id="animation-switch">
+    animation
+  </label>
+  <label>
+    <input type="checkbox" id="theme-switch">
+    dark theme
+  </label>
+</div>
+<script>
+(function () {
+  var root = document.documentElement;
+  var animation = document.getElementById("animation-switch");
+  var theme = document.getElementById("theme-switch");
+
+  function write(key, value) {
+    try { localStorage.setItem(key, value); } catch (e) {}
+  }
+
+  var colorScheme = matchMedia("(prefers-color-scheme: dark)");
+
+  function explicitTheme() {
+    var value = root.getAttribute("data-theme");
+    return value === "light" || value === "dark" ? value : null;
+  }
+
+  function syncThemeControl() {
+    var chosen = explicitTheme();
+    theme.checked = chosen === "dark" || (!chosen && colorScheme.matches);
+  }
+
+  animation.checked = root.getAttribute("data-animation") !== "off";
+  syncThemeControl();
+
+  animation.addEventListener("change", function () {
+    var value = animation.checked ? "on" : "off";
+    root.setAttribute("data-animation", value);
+    write("animation", value);
+  });
+
+  theme.addEventListener("change", function () {
+    var value = theme.checked ? "dark" : "light";
+    root.setAttribute("data-theme", value);
+    write("theme", value);
+  });
+
+  colorScheme.addEventListener("change", function () {
+    if (explicitTheme()) return;
+    syncThemeControl();
+  });
+})();
+</script>

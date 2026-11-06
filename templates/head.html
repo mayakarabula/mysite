@@ -4,5 +4,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <meta name="robots" content="index, follow">
 
+<script>
+(function () {
+  function read(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
+  }
+
+  var theme = read("theme");
+  if (theme === "light" || theme === "dark") {
+    document.documentElement.setAttribute("data-theme", theme);
+  }
+
+  var animation = read("animation");
+  if (animation !== "on" && animation !== "off") {
+    animation = matchMedia("(prefers-reduced-motion: reduce)").matches ? "off" : "on";
+  }
+  document.documentElement.setAttribute("data-animation", animation);
+})();
+</script>
+
 <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}"> 
 <link rel="stylesheet" href="{{ get_url(path='css/style.css', trailing_slash=false) | safe }}"/>
