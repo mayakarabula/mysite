@@ -7,7 +7,7 @@ author = { name = "Maya" }
 
 The Web is using way too many resources, it's better to make websites slimmer. You can find more on my opinion in this post:
 
-[💛 25.08.2022 - Documents were not supposed to be Turing complete](dead_link)
+[💛 25.08.2022 - Documents were not supposed to be Turing complete](/tiny-log/document-turing-complete)
 
 ### Tech side
 Following my take that most websites should be simple documents. I write this website as a set of Markdown documents that I convert with a script to HTML and Gemini format. For some spice, I add CSS and meta tags to it. Later on, I host the files with simple HTTP and Gemini servers.

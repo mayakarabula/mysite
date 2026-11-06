@@ -9,23 +9,21 @@ Hello, my name is Maya. I work as a software / web engineer and I am located in 
 
 Below you can find some more information about my work experience.
 
-## 1. Contact
+## Contact
 
 [Linkedin](https://www.linkedin.com/in/maya-karabu%C5%82a-stysiak-a8356112a/)
 
 [Github](https://github.com/mayakarabula)
 
-## 2. Articles, demos
+## Recent work experience (full on Linkedin)
 
-[React integration with Azure and ASP.NET core [medium]](https://jakub-karabula-stysiak.medium.com/react-integration-with-azure-and-asp-net-core-9651929ae3f9)
+### Grammarly / Superhuman, Tech Lead
 
-[Our experience with Azure Active Directory B2C [medium]](https://jakub-karabula-stysiak.medium.com/our-experience-with-ad-b2c-6e2cc6cfa7f9)
+- Currently working as a tech lead in a team that works on the experience of Grammarly cards. Before I have worked in team responsible for the Grammarly browser extensions.
 
-[Open vCPE & SD-WAN Solution powered by Cloudify - UI [youtube]](https://www.youtube.com/watch?v=xjn4gyXKAM8)
+[Grammarly](https://www.grammarly.com/)
 
-## 3. Recent work experience (full on Linkedin)
-
-### Contentful, Senior Software Engineer (currently)
+### Contentful, Senior Software Engineer
 
 - Helping to ship a new application (Merge App) to major customers, leading the development of parts of the said application (eg introducing a way to integrate it with CI/CD).
 

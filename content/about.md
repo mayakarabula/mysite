@@ -17,7 +17,7 @@ To follow my beliefs I live as a vegan, and I try to limit my purchases and gene
 
 [~ About this page](/this-page)
 
-[~ Take on ethics](take-on-ethics.html)
+[~ Take on ethics](/tiny-log/ethics)
 
 [> Are you in Germany? Join ver.di union](https://www.verdi.de/ueber-uns/verdi-international/++co++0da83724-a114-11e2-9997-52540059119e)
 
