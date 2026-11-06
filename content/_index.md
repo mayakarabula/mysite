@@ -8,23 +8,18 @@ If you are looking for more professional information click the link "Professiona
 
 [Professional](/professional) * [About](/about) * [This page](/this-page) * [Github](https://github.com/mayakarabula) * {{ masto() }}
 
-### Projects
-Projects here can be treated as demos, learning experiences, and exploration of themes rather than intended for production.
-* [👩‍💻 JSWM - javascript window manager](/projects/jswm-javascript-wm)
-* [🪟 Szklo - 3D engine or reinventing the wheel](/projects/szklo)
-* [♊️ Gemini to HTTP Proxy - github](https://github.com/mayakarabula/gemini-proxy)
-* [✏️ drawings](/projects/drawings)
-
 ### Lists
+* [✏️ drawings](/projects/drawings)
 * [📖 Storygraph (books)](https://app.thestorygraph.com/profile/mayaks)
 * [🎹 Bandcamp (music)](https://bandcamp.com/mayaks)
 * [🎬 Letterboxd (films)](https://letterboxd.com/mayakss/)
 
 ### Tiny-log
+* [🕰️ 06.11.2026 - seis - or a friend, a font and a clock](/tiny-log/seis)
 * [🧑‍🚀 07.01.2024 - weft — a software system for small spacecraft](/tiny-log/space-travel)
-* [👀 25.10.22 - an initial look at running x11 in the browser](/tiny-log/jswm-xpra)
-* [⚖️ 23.10.22 - Take on ethics](/tiny-log/ethics)
-* [🐵 21.10.22 - Szklo update - added obj support](/tiny-log/szklo-update)
+* [👀 25.10.2022 - an initial look at running x11 in the browser](/tiny-log/jswm-xpra)
+* [⚖️ 23.10.2022 - Take on ethics](/tiny-log/ethics)
+* [🐵 21.10.2022 - Szklo update - added obj support](/tiny-log/szklo-update)
 * [◼️ 14.10.2022 - Hey Malevich, how are you?](/tiny-log/malevich)
 * [🐰 06.10.2022 - Jswm + Uxn](/tiny-log/jswm-uxn)
 * [🏳️‍⚧️ 28.09.2022 - Poland still breaks my heart after leaving it behind](/tiny-log/poland)

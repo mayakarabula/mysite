@@ -1,0 +1,37 @@
++++
+title = "🕰️ 06.11.2026 - seis - or a friend, a font and a clock"
+date = "2026-11-06"
+description = "🕰️ 06.11.2026 - seis - or a friend, a font and a clock"
+author = { name = "Maya" }
+
+[extra]
+image = "/images/be_gay_clock.jpeg"
++++
+
+Back in 2024, I was doing some small fun projects with Marieke, one of them [weft](/tiny-log/space-travel) - a custom UI in rust for a spaceship.
+
+Another project that spun from her idea for a custom font was seis. She made a [post](https://dwangschematiek.nl/seis/) about it back then.
+
+The idea for the font was that each symbol would have six segments, each segment would have horizontal, vertical and arched lines. Then we would have a binary flag for every line of every symbol - so empty one would be 0000 0000 and a full one would be 1111 1111.
+
+Below is an example of chonky bois - a set of numbers defined in the seis font system.
+
+![chonky bois](/images/chonky_bois.png)
+
+I have made an editor so that one can create a whole font. Below a set [Glagotic](https://en.wikipedia.org/wiki/Glagolitic_script) script in seis, you can see the binary representation for one glyph at the top right.
+
+![seis editor](/images/seis_editor.png)
+
+The next big step was to use this font for something real and then I came up with an idea for a electronic clock. Now, that would require a display and a controller. It was pretty easy to start with badger 2040 from pimoroni.
+
+![microcontrollers are yuri](/images/microcontrollers.jpg)
+
+Then I just needed to write a python script to draw the numbers with the seis font, specifically chonky bois. I have added the text below as a cherry on top.
+
+![seis in progress](/images/seis.jpg)
+
+Then my colleague from work, Marco, has helped me 3d print a stand for the clock and the project was ready.
+
+The end result with a control panel inspired by Star Trek.
+
+![end result](/images/seis_groningen.jpeg)
