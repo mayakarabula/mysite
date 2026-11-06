@@ -3,6 +3,7 @@
 <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light dark">
 
 <script>
 (function () {
@@ -13,6 +14,11 @@
   var theme = read("theme");
   if (theme === "light" || theme === "dark") {
     document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme-source", "saved");
+  } else {
+    theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme-source", "system");
   }
 
   var animation = read("animation");

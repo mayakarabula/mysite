@@ -14,6 +14,14 @@
 
 html[data-theme="light"] {
   color-scheme: light;
+  --bg: #f2f1f8;
+  --bg-main: #f2f1f8c4;
+  --bg-panel: #dedbf5;
+  --fg: #0c006b;
+  --heading: #5842ff;
+  --link: #00798c;
+  --accent: #8e80ff;
+  --selection: #bcb6e7;
 }
 
 @media (prefers-color-scheme: dark) {
