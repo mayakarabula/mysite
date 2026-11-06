@@ -31,7 +31,7 @@ If you are looking for more professional information click the link "Professiona
 * [The small web is beautiful](https://benhoyt.com/writings/the-small-web-is-beautiful/)
 * [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/)
 
-### Vibes this week (Two gals in space)
-![vibes](/images/vibes.png)
+### Vibes this week
+![vibes](/images/ophelia.png)
 
 
