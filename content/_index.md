@@ -15,6 +15,7 @@ If you are looking for more professional information click the link "Professiona
 * [🎬 Letterboxd (films)](https://letterboxd.com/mayakss/)
 
 ### Tiny-log
+* [📹 19.11.2026 - diary room](/tiny-log/diary-room)
 * [🕰️ 06.11.2026 - seis - or a friend, a font and a clock](/tiny-log/seis)
 * [🧑‍🚀 07.01.2024 - weft — a software system for small spacecraft](/tiny-log/space-travel)
 * [👀 25.10.2022 - an initial look at running x11 in the browser](/tiny-log/jswm-xpra)

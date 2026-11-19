@@ -123,15 +123,32 @@ code {
   padding: 0.1em 0.35em;
 }
 
+main pre {
+  background-color: #2b303b;
+  color: #c0c5ce;
+  border-left: 3px solid var(--accent);
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+  overflow-x: auto;
+  line-height: 1.55;
+}
+
+main pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
 .cover-image {
   width: 100%;
   max-height: 250px;
   object-fit: cover;
 }
 
-img {
+main img {
+  display: block;
   max-width: 100%;
-  margin-bottom: 1em;
+  margin: 0 auto 1em;
 }
 
 footer {
